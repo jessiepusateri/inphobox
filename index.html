@@ -20,7 +20,11 @@
 <!-- Insert your code here -->
 <div id="renderHere"></div>
 <script type="text/javascript">
-
+$.getJSON('https://inpho.cogs.indiana.edu/thinker/3724.json', function(data) {
+    var template = "<h1>{{wiki}}</h1>";
+    var html = Mustache.to_html(template, data);
+    $('#renderHere').html(html);
+});
 </script>
 
 </body>
