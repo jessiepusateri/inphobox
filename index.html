@@ -52,14 +52,43 @@
 	
 	<div class="container">
      <form class="form-signin">
-        <ul class="nav nav-tabs nav-stacked">
-		<li class="active" ><a href="#">Home</a></li>
-        <li><a href="#">{{wiki}}</a></li>
-        <li><a href="#">Messages</a></li>
-		</ul>
+        
+		<h1>{{label}}</h1>
+		<div class="InPhoTable">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td><b>Birth</b></td>
+                  <td>{{birth_string}}</td>
+                </tr>
+                <tr>
+                  <td><b>Death</b></td>
+                  <td>{{death_string}}</td>
+                </tr>
+                <tr>
+				<tr>
+                  <td><b>Nationality</b></td>
+                  <td>{{nationalities}}</td>
+                </tr>
+				
+                </tr>
+              </tbody>
+            </table>
+			<h5>External Links</h5>
+			<table class="table">
+              <tbody>
+              <td><b>Wikipedia</b></td>
+                  <td><a href=http://en.wikipedia.org/wiki/{{wiki}}>{{wiki}}</a></td>
+                </tr>
+				<tr>
+                  <td><b>InPho</b></td>
+                  <td><a href=https://inpho.cogs.indiana.edu/thinker/{{ID}}.html>{{label}}</a></td>
+              </tbody>
+            </table>
+			<tr>
+                  
+          </div>
 	</form>
-   
-      
   </script>
 
 <script type="text/javascript">
