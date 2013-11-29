@@ -35,14 +35,14 @@ using the [Mustache templating engine](http://mustache.github.io/).  We request
 that you do this using the [Plato InPhO
 entry](https://inpho.cogs.indiana.edu/thinker/3724).
 
-1.  Download the starter files as a [zip archive](https://github.com/inpho/inphobox/archive/master.zip).
-2.  Using the [jQuery.getJSON()](http://api.jquery.com/jQuery.getJSON/)
+1.  ~~Download the starter files as a [zip archive](https://github.com/inpho/inphobox/archive/master.zip).~~
+2.  ~~Using the [jQuery.getJSON()](http://api.jquery.com/jQuery.getJSON/)
 function, query the InPhO API for the Plato entry at 
-https://inpho.cogs.indiana.edu/thinker/3724.json.
-3.  Render the name to the `#renderHere div` using 
-[mustache.js](http://mustache.github.io/mustache.5.html).
-4.  Modify the template to include a link to the Wikipedia page and the InPhO entry.
-5.  To make the data more presentable, examples in the [Bootstrap 2.3.2](http://getbootstrap.com/2.3.2/index.html) may help.
+https://inpho.cogs.indiana.edu/thinker/3724.json.~~
+3.  ~~Render the name to the `#renderHere div` using 
+[mustache.js](http://mustache.github.io/mustache.5.html).~~
+4.  ~~Modify the template to include a link to the Wikipedia page and the InPhO entry.~~
+5.  ~~To make the data more presentable, examples in the [Bootstrap 2.3.2](http://getbootstrap.com/2.3.2/index.html) may help.~~
 
 All libraries are already imported in the `index.html` starter file. What you
 need to work on is code.
@@ -78,7 +78,7 @@ Advanced Ideas
 These are starting points once you can render the thinker's label on the page.
 Other ideas are encouraged!
 
-*   Render the birth and death dates, if present.
+*   ~~Render the birth and death dates, if present.~~
 *   Create a function to make an arbitrary InPhO API URL or full API call 
     and use it to get label information for "related_thinkers", "students", 
     "teachers" fields. Link to these entries in InPhO.
@@ -94,9 +94,9 @@ Other ideas are encouraged!
 *   Load dbpedia information using "wiki" field of the InPhO JSON data. 
     The URL for the DBpedia JSON export is: http://dbpedia.org/data/Plato.json . 
     The URL for the DBpedia viewer is: http://dbpedia.org/page/Plato
-*   Register for [GitHub](http://github.com), fork the
+*   ~~Register for [GitHub](http://github.com), fork the
     [inpho/inphobox](http://github.com/inpho/inphobox) repository, and push your
-    work to GitHub.
+    work to GitHub.~~
 
 Advanced Tips
 ---------------
